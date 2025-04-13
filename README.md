@@ -1,4 +1,4 @@
-![diagrama](https://github.com/user-attachments/assets/400ea4f2-71b6-4c49-bfcd-72015ac799ba)# FIAP - Faculdade de Informática e Administração Paulista
+# FIAP - Faculdade de Informática e Administração Paulista
 
 <p align="center">
 <a href= "https://www.fiap.com.br/"><img src="assets/logo-fiap.png" alt="FIAP - Faculdade de Informática e Admnistração Paulista" border="0" width=40% height=40%></a>
@@ -150,7 +150,7 @@ Criar um banco de dados que permita:
 
 ## 🗂️ Diagrama Entidade-Relacionamento (DER)
 
-
+<img src="assets/diagrama.png">
 
 
 > Os diagramas foram gerados utilizando o [SQL Developer Data Modeler](https://www.oracle.com/br/database/sqldeveloper/technologies/sql-data-modeler/download/).
