@@ -173,7 +173,7 @@ O modelo de dados foi estruturado para permitir análises históricas detalhadas
 
 ## 📜 Script SQL (DDL)
 
-Consulte o arquivo [`farmtech`]([\scripts\farmtech.ddl](https://github.com/carlamaximo/FIAP-F2-CAP1/blob/main/scripts/farmtech.ddl)) para ver a criação das tabelas e seus relacionamentos.
+Consulte o arquivo [farmtech](https://github.com/carlamaximo/FIAP-F2-CAP1/blob/main/document/farmtech.ddl) para ver a criação das tabelas e seus relacionamentos.
 
 ---
 
