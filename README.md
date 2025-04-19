@@ -187,7 +187,7 @@ GROUP BY c.nome, MONTH(ls.data_hora);
 
 ## 📜 Script SQL (DDL)
 
-Consulte o arquivo [`farmtech`]([\scripts\farmtech.ddl](https://github.com/carlamaximo/FIAP-F2-CAP1/blob/main/scripts/farmtech.ddl) para ver a criação das tabelas e seus relacionamentos.
+Consulte o arquivo [`farmtech`]([\scripts\farmtech.ddl](https://github.com/carlamaximo/FIAP-F2-CAP1/blob/main/scripts/farmtech.ddl)) para ver a criação das tabelas e seus relacionamentos.
 
 ---
 
