@@ -56,7 +56,6 @@ O modelo de dados foi estruturado para permitir análises históricas detalhadas
 
 ### 🧪 Exemplo de Query:
 
-```sql
 -- Média mensal da umidade por cultura
 SELECT
     c.nome AS cultura,
