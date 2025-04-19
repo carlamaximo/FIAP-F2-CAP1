@@ -26,16 +26,46 @@ Grupo 42
 
 ## 📜 Descrição
 
-A **FarmTech Solutions** é uma startup focada em soluções de Agricultura Digital. Este projeto visa desenvolver uma modelagem de banco de dados relacional para armazenar e analisar os dados coletados por sensores utilizados em plantações, com o objetivo de otimizar o uso de água e nutrientes como parte de um sistema inteligente de monitoramento agrícola.
+A **FarmTech Solutions** é uma startup focada em soluções para **Agricultura Digital**. Com o desafio crescente de **otimizar o uso de recursos naturais** e **aumentar a produtividade no campo**, este projeto visa **modelar um banco de dados relacional** capaz de armazenar e analisar dados de sensores de umidade, pH e nutrientes instalados em plantações. Essa estrutura de dados servirá como base para um sistema inteligente de monitoramento, análise histórica e tomada de decisão voltada à irrigação e aplicação eficiente de insumos agrícolas, como parte de um sistema otimizado de monitoramento agrícola.
 
-## 🎯 Objetivo
+## 💡 Problema
 
-Criar um banco de dados que permita:
+Produtores rurais enfrentam desafios como desperdício de água, uso inadequado de fertilizantes e falta de dados confiáveis para tomada de decisão. A ausência de um sistema inteligente para acompanhamento em tempo real gera desperdícios e reduz a eficiência produtiva.
 
-- Armazenar dados de sensores em tempo real;
-- Registrar as culturas plantadas e suas aplicações;
-- Otimizar recursos hídricos e nutricionais;
-- Permitir análise histórica de dados para previsões futuras.
+## 🎯 Solução
+
+O projeto propõe uma modelagem de banco de dados para:
+
+- Armazenar dados de sensores de **umidade**, **pH** e **nutrientes (P e K)**;
+- Registrar **leituras em tempo real** e **aplicações de insumos**;
+- Servir como **base para sistemas inteligentes** de análise e previsão.
+
+Essa estrutura permitirá:
+
+- **Ajustar a irrigação e fertilização** de forma precisa;
+- **Analisar dados históricos**;
+- **Aplicar modelos preditivos** para antecipar demandas da lavoura.
+
+## 📊 Aplicações Futuras
+
+O modelo de dados foi estruturado para permitir análises históricas detalhadas, viabilizando o desenvolvimento de soluções futuras com **inteligência artificial e predição** de comportamento do solo e das culturas:
+
+- Quais culturas precisarão de mais água com base no clima e histórico de solo;
+- Quando aplicar nutrientes com mais eficácia;
+- Qual será o comportamento do pH do solo em determinadas épocas.
+
+### 🧪 Exemplo de Query:
+
+```sql
+-- Média mensal da umidade por cultura
+SELECT
+    c.nome AS cultura,
+    MONTH(ls.data_hora) AS mes,
+    AVG(ls.valor_umidade) AS media_umidade
+FROM Cultura c
+JOIN Sensor s ON c.id_cultura = s.id_cultura
+JOIN Leitura_Sensor ls ON s.id_sensor = ls.id_sensor
+GROUP BY c.nome, MONTH(ls.data_hora);
 
 ---
 
@@ -150,7 +180,7 @@ Criar um banco de dados que permita:
 
 ## 🗂️ Diagrama Entidade-Relacionamento (DER)
 
-<img src="assets/diagrama.png">
+<img src="assets\diagrama.png">
 
 
 > Os diagramas foram gerados utilizando o [SQL Developer Data Modeler](https://www.oracle.com/br/database/sqldeveloper/technologies/sql-data-modeler/download/).
@@ -186,16 +216,12 @@ Dentre os arquivos e pastas presentes na raiz do projeto, definem-se:
 
 ## 🗃 Histórico de lançamentos
 
-* 0.5.0 - 13/04/2024
+* 0.5.0 - 13/04/2025
     * 
-* 0.4.0 - XX/XX/2024
+* 0.4.0 - 19/04/2025
     * 
 * 0.3.0 - XX/XX/2024
     * 
-* 0.2.0 - XX/XX/2024
-    * 
-* 0.1.0 - XX/XX/2024
-    *
 
 ## 📋 Licença
 
