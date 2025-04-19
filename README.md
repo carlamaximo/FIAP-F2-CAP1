@@ -211,8 +211,23 @@ Dentre os arquivos e pastas presentes na raiz do projeto, definem-se:
 
 ## 🔧 Como executar o código
 
-*Acrescentar as informações necessárias sobre pré-requisitos (IDEs, serviços, bibliotecas etc.) e instalação básica do projeto, descrevendo eventuais versões utilizadas. Colocar um passo a passo de como o leitor pode baixar o seu código e executá-lo a partir de sua máquina ou seu repositório. Considere a explicação organizada em fase.*
+Este projeto não possui código executável tradicional, mas apresenta uma modelagem de banco de dados relacional criada com o Oracle SQL Developer Data Modeler. Abaixo estão as instruções para abrir e visualizar o modelo.
 
+✅ Pré-requisitos
+Antes de começar, você vai precisar ter instalado:
+
+- Oracle SQL Developer Data Modeler
+
+- Versão utilizada: 23.x (ou mais recente)
+
+- Download: https://www.oracle.com/br/database/sqldeveloper/technologies/sql-data-modeler/download/
+
+📥 Como baixar o repositório
+Você pode clonar este repositório em sua máquina local com o seguinte comando:
+
+- git clone git@github.com:carlamaximo/FIAP-F2-CAP1.git (SSH)
+  OU:
+- git clone https://github.com/carlamaximo/FIAP-F2-CAP1.git (HTTPS)
 
 ## 🗃 Histórico de lançamentos
 
