@@ -179,10 +179,8 @@ GROUP BY c.nome, MONTH(ls.data_hora);
 
 ## 🗂️ Diagrama Entidade-Relacionamento (DER)
 
-<img src="assets\diagrama.png">
-![Uploading diagrama.p<?xml version="1.0" encoding="utf-8"?><Error><Code>AuthenticationFailed</Code><Message>Server failed to authenticate the request. Make sure the value of Authorization header is formed correctly including the signature.
-RequestId:a4a29a3c-901e-007a-37a4-ac4b48000000
-Time:2025-04-13T18:44:13.0263162Z</Message><AuthenticationErrorDetail>Signed expiry time [Sun, 13 Apr 2025 18:42:54 GMT] must be after signed start time [Sun, 13 Apr 2025 18:44:13 GMT]</AuthenticationErrorDetail></Error>ng…]()
+![Relational_1](https://github.com/user-attachments/assets/e65ef8bc-a46c-4e25-9a07-932c1d4d9400)
+
 
 
 > Os diagramas foram gerados utilizando o [SQL Developer Data Modeler](https://www.oracle.com/br/database/sqldeveloper/technologies/sql-data-modeler/download/).
