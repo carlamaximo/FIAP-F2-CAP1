@@ -54,20 +54,6 @@ O modelo de dados foi estruturado para permitir análises históricas detalhadas
 - Quando aplicar nutrientes com mais eficácia;
 - Qual será o comportamento do pH do solo em determinadas épocas.
 
-### 🧪 Exemplo de Query:
-
--- Média mensal da umidade por cultura
-SELECT
-    c.nome AS cultura,
-    MONTH(ls.data_hora) AS mes,
-    AVG(ls.valor_umidade) AS media_umidade
-FROM Cultura c
-JOIN Sensor s ON c.id_cultura = s.id_cultura
-JOIN Leitura_Sensor ls ON s.id_sensor = ls.id_sensor
-GROUP BY c.nome, MONTH(ls.data_hora);
-
----
-
 ## 🧱 Entidades e Atributos (MER)
 
 ---
@@ -228,6 +214,21 @@ Você pode clonar este repositório em sua máquina local com o seguinte comando
 - git clone git@github.com:carlamaximo/FIAP-F2-CAP1.git (SSH)
   OU:
 - git clone https://github.com/carlamaximo/FIAP-F2-CAP1.git (HTTPS)
+
+
+### 🧪 Exemplo de Query:
+
+-- Média mensal da umidade por cultura
+SELECT
+    c.nome AS cultura,
+    MONTH(ls.data_hora) AS mes,
+    AVG(ls.valor_umidade) AS media_umidade
+FROM Cultura c
+JOIN Sensor s ON c.id_cultura = s.id_cultura
+JOIN Leitura_Sensor ls ON s.id_sensor = ls.id_sensor
+GROUP BY c.nome, MONTH(ls.data_hora);
+
+---
 
 ## 🗃 Histórico de lançamentos
 
