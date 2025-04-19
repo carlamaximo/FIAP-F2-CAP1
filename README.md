@@ -65,9 +65,9 @@ O modelo de dados foi estruturado para permitir análises históricas detalhadas
 | Atributo    | Tipo         | Descrição                        |
 |-------------|--------------|----------------------------------|
 | id_produtor | INT (PK)     | Identificador único do produtor |
-| nome        | VARCHAR(100) | Nome completo do produtor       |
-| email       | VARCHAR(100) | E-mail de contato               |
-| telefone    | VARCHAR(20)  | Telefone do produtor            |
+| nome        | VARCHAR(200) | Nome completo do produtor       |
+| email       | VARCHAR(200) | E-mail de contato               |
+| telefone    | VARCHAR(30)  | Telefone do produtor            |
 
 ---
 
