@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="D15E8F2B-BECE-FB64-5F07-79E6A9669FF5" containerWithKeyObject="C702D709-9DEA-97B9-5EE4-578B578128D9" localFKIndex="581ECEFA-D316-6A19-C16F-2B408C788C34" name="Aplicacao_Cultura_FK">
+<createdBy>zapsign</createdBy>
+<createdTime>2025-04-19 18:10:32 UTC</createdTime>
+<ownerDesignName>der</ownerDesignName>
+<referredTableLongName>Cultura</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>AA5D729E-908F-742D-7E99-64206D8DA8BE</referredTableID>
+<keyObject>F316E13B-DE16-7306-EA8F-1FBA605AC748</keyObject>
+<referredKeyID>F316E13B-DE16-7306-EA8F-1FBA605AC748</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_CULTURA</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

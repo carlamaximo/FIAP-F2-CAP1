@@ -1,0 +1,105 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AA5D729E-908F-742D-7E99-64206D8DA8BE" name="Cultura">
+<createdBy>zapsign</createdBy>
+<createdTime>2025-04-19 17:28:58 UTC</createdTime>
+<ownerDesignName>der</ownerDesignName>
+<ordsAlias>table_3</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_CULTURA" id="D70987DE-FB5D-3382-4B76-40253D1BC1E7">
+<createdBy>zapsign</createdBy>
+<createdTime>2025-04-19 17:29:47 UTC</createdTime>
+<ownerDesignName>der</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOME" id="69225F23-58A0-F389-8FC2-B01988F0693A">
+<createdBy>zapsign</createdBy>
+<createdTime>2025-04-19 17:30:14 UTC</createdTime>
+<ownerDesignName>der</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TIPO" id="BEDE860F-C66F-D2FF-8D7F-45384E6A43B5">
+<createdBy>zapsign</createdBy>
+<createdTime>2025-04-19 17:31:10 UTC</createdTime>
+<ownerDesignName>der</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DATA_INICIO" id="DFC9EA62-63B8-4909-6A3A-AB30ED83B534">
+<createdBy>zapsign</createdBy>
+<createdTime>2025-04-19 17:31:40 UTC</createdTime>
+<ownerDesignName>der</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DATA_FIM" id="C026EC2B-1DF5-96A8-CCCE-85FDAFABBF74">
+<createdBy>zapsign</createdBy>
+<createdTime>2025-04-19 17:32:05 UTC</createdTime>
+<ownerDesignName>der</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Produtor_ID_ PRODUTOR" id="FFE70B57-C51D-D7DD-5678-A79A76D255D9">
+<createdBy>zapsign</createdBy>
+<createdTime>2025-04-19 17:45:05 UTC</createdTime>
+<ownerDesignName>der</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7AFB0B1E-3244-B692-E71A-1E4A09BA0921" referredColumn="DE3A6CC6-B630-D36D-BA4F-174CF4081839"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F316E13B-DE16-7306-EA8F-1FBA605AC748" name="Cultura_PK">
+<createdBy>zapsign</createdBy>
+<createdTime>2025-04-19 17:29:47 UTC</createdTime>
+<ownerDesignName>der</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D70987DE-FB5D-3382-4B76-40253D1BC1E7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="119C3EB6-AFE0-ABE8-EA42-C8308237D22E" name="Cultura_Produtor_FK">
+<createdBy>zapsign</createdBy>
+<createdTime>2025-04-19 17:45:05 UTC</createdTime>
+<ownerDesignName>der</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FFE70B57-C51D-D7DD-5678-A79A76D255D9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -181,19 +181,25 @@ Consulte o arquivo [`farmtech`]([\scripts\farmtech.ddl](https://github.com/carla
 
 Dentre os arquivos e pastas presentes na raiz do projeto, definem-se:
 
-- <b>.github</b>: Nesta pasta ficarão os arquivos de configuração específicos do GitHub que ajudam a gerenciar e automatizar processos no repositório.
+- <b>.github</b>: Contém arquivos de configuração do GitHub, como workflows e ações automatizadas. Pode ser usada futuramente para CI/CD ou verificação automática de entrega.
 
-- <b>assets</b>: aqui estão os arquivos relacionados a elementos não-estruturados deste repositório, como imagens.
+- <b>assets</b>: Armazena imagens e recursos visuais utilizados na documentação, como o DER exportado em PNG e logo da faculdade.
 
-- <b>config</b>: Posicione aqui arquivos de configuração que são usados para definir parâmetros e ajustes do projeto.
+- <b>config</b>: Espaço reservado para arquivos de configuração do projeto. Pode incluir parâmetros de ambiente ou arquivos .env.example, se necessário em fases futuras.
 
-- <b>document</b>: aqui estão todos os documentos do projeto que as atividades poderão pedir. Na subpasta "other", adicione documentos complementares e menos importantes.
+- <b>document</b>: Contém os documentos formais do projeto, como o briefing inicial, atas de reunião, e o modelo do banco de dados exportado pelo Oracle SQL Developer Data Modeler (.ddl).
 
-- <b>scripts</b>: Posicione aqui scripts auxiliares para tarefas específicas do seu projeto. Exemplo: deploy, migrações de banco de dados, backups.
+farmtech: Subpasta para armazenar arquivos gerados pelo Oracle SQL Developer Data Modeler.
 
-- <b>src</b>: Todo o código fonte criado para o desenvolvimento do projeto ao longo das 7 fases.
+- <b>scripts</b>: Armazena scripts auxiliares.
 
-- <b>README.md</b>: arquivo que serve como guia e explicação geral sobre o projeto (o mesmo que você está lendo agora).
+Contém um README.md explicando que o script SQL foi mencionado no descritivo do projeto, mas foi desconsiderado conforme orientação do professor.
+
+O arquivo script_banco.sql permanece aqui apenas para fins de consulta, sem obrigatoriedade de execução.
+
+- <b>src</b>: Diretório reservado para o código-fonte do projeto. Embora este projeto tenha foco em modelagem de dados, futuras implementações (como APIs ou front-ends para visualização dos dados) poderão ser armazenadas aqui.
+
+<b>README.md</b>: Arquivo principal de documentação do projeto. Serve como guia de entendimento sobre o objetivo, estrutura e funcionamento do repositório.
 
 ## 🔧 Como executar o código
 

@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DD81764E-E807-8801-7194-DA69A075F730" name="Produtor">
+<createdBy>zapsign</createdBy>
+<createdTime>2025-04-19 17:21:42 UTC</createdTime>
+<ownerDesignName>der</ownerDesignName>
+<ordsAlias>table_1</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="NOME" id="2CC3B862-CBC1-0504-0057-0E3A17F8E307">
+<createdBy>zapsign</createdBy>
+<createdTime>2025-04-19 17:22:36 UTC</createdTime>
+<ownerDesignName>der</ownerDesignName>
+<sourceType>Manual</sourceType>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>200 CHAR</dataTypeSize>
+<ownDataTypeParameters>200 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EMAIL" id="CFAF1C7D-24BE-100C-4D8E-F4449394550F">
+<createdBy>zapsign</createdBy>
+<createdTime>2025-04-19 17:23:07 UTC</createdTime>
+<ownerDesignName>der</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<sourceType>Manual</sourceType>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>200 CHAR</dataTypeSize>
+<ownDataTypeParameters>200 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_ PRODUTOR" id="DE3A6CC6-B630-D36D-BA4F-174CF4081839">
+<createdBy>zapsign</createdBy>
+<createdTime>2025-04-19 17:27:00 UTC</createdTime>
+<ownerDesignName>der</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TELEFONE" id="53F9C5A1-153F-B7B9-F432-D88C072A1C6D">
+<createdBy>zapsign</createdBy>
+<createdTime>2025-04-19 17:28:33 UTC</createdTime>
+<ownerDesignName>der</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4D554B22-5BF0-3A74-20B4-C99B765E1503" name="Produtor_PK">
+<createdBy>zapsign</createdBy>
+<createdTime>2025-04-19 17:27:00 UTC</createdTime>
+<ownerDesignName>der</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DE3A6CC6-B630-D36D-BA4F-174CF4081839"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

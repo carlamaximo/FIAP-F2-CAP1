@@ -1,0 +1,113 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B7112B3B-AE28-0D04-7B4C-B8CDF45A355C" name="Leitura_Sensor">
+<createdBy>zapsign</createdBy>
+<createdTime>2025-04-19 17:58:54 UTC</createdTime>
+<ownerDesignName>der</ownerDesignName>
+<ordsAlias>table_6</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_LEITURA" id="1AA18FEF-68D4-5F3F-0F72-B3F86B284C60">
+<createdBy>zapsign</createdBy>
+<createdTime>2025-04-19 17:59:31 UTC</createdTime>
+<ownerDesignName>der</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DATA_HORA" id="FF3F3D5E-5DA0-B48D-9398-527F9189BFAB">
+<createdBy>zapsign</createdBy>
+<createdTime>2025-04-19 17:59:52 UTC</createdTime>
+<ownerDesignName>der</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VALOR_UMIDADE" id="8B090FAD-D36C-142B-98C2-4983C9987EC4">
+<createdBy>zapsign</createdBy>
+<createdTime>2025-04-19 18:00:19 UTC</createdTime>
+<ownerDesignName>der</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VALOR_PH" id="6FD2754A-BF78-D033-BF19-5DE0E9F2D71D">
+<createdBy>zapsign</createdBy>
+<createdTime>2025-04-19 18:00:52 UTC</createdTime>
+<ownerDesignName>der</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VALOR_NPK_FOSFORO" id="DD16BE31-F6DA-319D-2C93-C1488E02EDA8">
+<createdBy>zapsign</createdBy>
+<createdTime>2025-04-19 18:01:10 UTC</createdTime>
+<ownerDesignName>der</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VALOR_NPK_POTASSIO" id="AE161ABD-913C-9725-48B2-4651607B5AA4">
+<createdBy>zapsign</createdBy>
+<createdTime>2025-04-19 18:01:28 UTC</createdTime>
+<ownerDesignName>der</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_SENSOR" id="716A28BE-3D42-1AEA-32D7-E61AD7B91DED">
+<createdBy>zapsign</createdBy>
+<createdTime>2025-04-19 18:04:24 UTC</createdTime>
+<ownerDesignName>der</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4263E3D2-64BF-6D3C-F52D-5835D31B8AA3" referredColumn="44B019AF-B8D7-92D6-853E-24DE0DA994E2"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1EF1F903-1217-F0CF-B5F8-517A05A9E786" name="Leitura_Sensor_PK">
+<createdBy>zapsign</createdBy>
+<createdTime>2025-04-19 17:59:31 UTC</createdTime>
+<ownerDesignName>der</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1AA18FEF-68D4-5F3F-0F72-B3F86B284C60"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A1AC13A1-53F4-F322-20B7-F6305CDF426C" name="Leitura_Sensor_FK">
+<createdBy>zapsign</createdBy>
+<createdTime>2025-04-19 18:03:20 UTC</createdTime>
+<ownerDesignName>der</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="716A28BE-3D42-1AEA-32D7-E61AD7B91DED"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C702D709-9DEA-97B9-5EE4-578B578128D9" name="Aplicacao">
+<createdBy>zapsign</createdBy>
+<createdTime>2025-04-19 18:08:00 UTC</createdTime>
+<ownerDesignName>der</ownerDesignName>
+<ordsAlias>table_9</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_APLICACAO" id="DB921E93-B2FD-59B0-07EB-DFA1F2133440">
+<createdBy>zapsign</createdBy>
+<createdTime>2025-04-19 18:08:30 UTC</createdTime>
+<ownerDesignName>der</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DATA_HORA" id="B63FB198-E3C0-5F5F-60D7-A9F94C970C34">
+<createdBy>zapsign</createdBy>
+<createdTime>2025-04-19 18:08:51 UTC</createdTime>
+<ownerDesignName>der</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TIPO" id="85A1FC3A-E198-0C74-A64D-9E07C4E80CCB">
+<createdBy>zapsign</createdBy>
+<createdTime>2025-04-19 18:09:08 UTC</createdTime>
+<ownerDesignName>der</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="QUANTIDADE" id="FED3F957-3B1D-0616-9ECB-0E5F430C0673">
+<createdBy>zapsign</createdBy>
+<createdTime>2025-04-19 18:09:27 UTC</createdTime>
+<ownerDesignName>der</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_CULTURA" id="133BC1B2-1928-FDDC-4F1E-8E94544C0CBA">
+<createdBy>zapsign</createdBy>
+<createdTime>2025-04-19 18:09:46 UTC</createdTime>
+<ownerDesignName>der</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D15E8F2B-BECE-FB64-5F07-79E6A9669FF5" referredColumn="D70987DE-FB5D-3382-4B76-40253D1BC1E7"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2E0041F6-7274-986D-AD00-4EE84603CEBD" name="Aplicacao_PK">
+<createdBy>zapsign</createdBy>
+<createdTime>2025-04-19 18:08:30 UTC</createdTime>
+<ownerDesignName>der</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DB921E93-B2FD-59B0-07EB-DFA1F2133440"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="581ECEFA-D316-6A19-C16F-2B408C788C34" name="Aplicacao_Cultura_FK">
+<createdBy>zapsign</createdBy>
+<createdTime>2025-04-19 18:10:32 UTC</createdTime>
+<ownerDesignName>der</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="133BC1B2-1928-FDDC-4F1E-8E94544C0CBA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

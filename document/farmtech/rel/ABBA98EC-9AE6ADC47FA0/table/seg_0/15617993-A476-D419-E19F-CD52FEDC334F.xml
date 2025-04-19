@@ -1,0 +1,82 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="15617993-A476-D419-E19F-CD52FEDC334F" name="Sensor">
+<createdBy>zapsign</createdBy>
+<createdTime>2025-04-19 17:46:56 UTC</createdTime>
+<ownerDesignName>der</ownerDesignName>
+<ordsAlias>table_5</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_SENSOR" id="44B019AF-B8D7-92D6-853E-24DE0DA994E2">
+<createdBy>zapsign</createdBy>
+<createdTime>2025-04-19 17:47:28 UTC</createdTime>
+<ownerDesignName>der</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TIPO" id="9950C6A3-E9DA-D894-5048-2E36D62B3A8F">
+<createdBy>zapsign</createdBy>
+<createdTime>2025-04-19 17:47:51 UTC</createdTime>
+<ownerDesignName>der</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MODELO" id="BA0B1D2A-699A-ABEB-5F83-C3DCBCE406E2">
+<createdBy>zapsign</createdBy>
+<createdTime>2025-04-19 17:48:06 UTC</createdTime>
+<ownerDesignName>der</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_CULTURA" id="EA35C545-A0AA-913E-DCD0-32A29E1B9DE2">
+<createdBy>zapsign</createdBy>
+<createdTime>2025-04-19 17:49:34 UTC</createdTime>
+<ownerDesignName>der</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="45D8C196-C4AD-7F71-A3D0-1E5FCE44B46B" referredColumn="D70987DE-FB5D-3382-4B76-40253D1BC1E7"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4B0F0486-7578-ABAE-3855-2F29D6B22A59" name="Sensor_PK">
+<createdBy>zapsign</createdBy>
+<createdTime>2025-04-19 17:47:28 UTC</createdTime>
+<ownerDesignName>der</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="44B019AF-B8D7-92D6-853E-24DE0DA994E2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1F02DE18-CD08-7C1C-BB48-98B92AED643C" name="Sensor_Cultura_FK">
+<createdBy>zapsign</createdBy>
+<createdTime>2025-04-19 17:54:38 UTC</createdTime>
+<ownerDesignName>der</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EA35C545-A0AA-913E-DCD0-32A29E1B9DE2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
